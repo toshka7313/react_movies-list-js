@@ -6,6 +6,5 @@ export const MovieList = ({ movies }) => {
     <MovieCard movie={movie} key={movie.imdbId} />
   ));
 
-  return <div className='movies'>{preparedMovies}</div>
-}
-
+  return <div className="movies">{preparedMovies}</div>;
+};
